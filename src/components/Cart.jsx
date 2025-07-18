@@ -47,7 +47,7 @@ function CartItem({ item, options, quantity }) {
       </div>
       <div className="cart-item-option">
         {Object.keys(options).map((el) => (
-          <div key={el.id}>
+          <div key={el}>
             {el} : {data.options[el][options[el]]}
           </div>
         ))}
